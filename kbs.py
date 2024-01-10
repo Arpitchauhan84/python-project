@@ -16,7 +16,6 @@ questions=[
 ]
 
 levels=[1000,2000,4000,8000,16000,32000,64000,128000,256000,512000,1000000]
-
 i=0
 money=0
 for i in range(0,len(questions)):
@@ -41,5 +40,4 @@ for i in range(0,len(questions)):
     else:
         print('Wrong answere!')
         break
-    
 print(f'finaly you have won {levels[i]}')
